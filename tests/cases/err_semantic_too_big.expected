@@ -1,0 +1,6 @@
+exit: 1
+error[semantic]: number 4294967296 does not fit in uint32 (max 4294967295)
+  --> 1:5
+   |
+ 1 | 1 + 4294967296
+   |     ^

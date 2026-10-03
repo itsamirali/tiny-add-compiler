@@ -1,0 +1,6 @@
+exit: 1
+error[parser]: expected NUMBER after '+', found EOF
+  --> 1:4
+   |
+ 1 | 1 +
+   |    ^

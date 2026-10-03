@@ -1,0 +1,6 @@
+exit: 1
+error[lexer]: unexpected character 'a'
+  --> 2:5
+   |
+ 2 | 2 + abc
+   |     ^

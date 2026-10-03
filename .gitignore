@@ -1,0 +1,29 @@
+# Build output
+build/
+
+# Object and dependency files
+*.o
+*.obj
+*.d
+*.a
+*.lib
+
+# Executables
+/tinyadd
+/test_runner
+*.exe
+*.out
+
+# Debugger / sanitizer / crash leftovers
+*.dSYM/
+vgcore.*
+core
+core.*
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db

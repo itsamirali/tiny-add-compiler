@@ -1,0 +1,8 @@
+# Always store and check out text files with LF line endings, so the
+# Makefile and sources work unchanged under Linux/macOS/WSL.
+* text=auto eol=lf
+
+# Binary files: never touch line endings.
+*.png binary
+*.jpg binary
+*.pdf binary
